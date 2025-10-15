@@ -12,45 +12,13 @@
 | ✅ 自动缺失值填补、异常值过滤、染色体排序 | Auto missing-value fill, outlier removal, chrom-sort |
 | ✅ 支持局部区域上下游扩展可视化 | Up-/down-stream flank visualisation |
 | ✅ 发布级 PDF/PNG 双输出 | Publication-ready PDF & PNG simultaneously |
-| ✅ Jupyter 模板，即插即用 | Jupyter notebook template included |
 
 ---
 
-## 🚀 快速开始 | Quick Start  
-### 1. 安装 Install
+## 🚀 安装 | Install
 ```bash
-pip install MethPlotter
+pip install Methplotter
 ```
-
-### 2. 1 分钟跑通 Example (中文)
-```bash
-# 下载测试数据（已内置）
-methplotter --demo
-
-# 绘制 5 号染色体整体甲基化趋势
-methplotter --cx Tair10.CX_report.txt \
-            --gff TAIR10.gff \
-            --chr Chr5 \
-            --plot line \
-            --outdir my_figs
-```
-打开 `my_figs/Chr5_methylation_line.pdf` 即可。
-
-### 2. Quick start (English)
-```bash
-# built-in demo dataset
-methplotter --demo
-
-# genome-wide line-plot for Chr5
-methplotter --cx Tair10.CX_report.txt \
-            --gff TAIR10.gff \
-            --chr Chr5 \
-            --plot line \
-            --outdir my_figs
-```
-Check `my_figs/Chr5_methylation_line.pdf`.
-
----
 
 ## 📥 输入格式 | Input
 | 文件 | 说明 | 必需 |
@@ -105,15 +73,6 @@ mp.draw_line(data, window=2e5, color=['#1f77b4'])
 - numpy ≥ 2.1  
 *所有依赖会自动随 pip 安装*  
 *All deps are auto-installed via pip.*
-
----
-
-## 🧪 测试数据 | Test data
-```bash
-methplotter --demo
-```
-命令会下载 **拟南芥** 1 号 & 5 号染色体示例数据 (~3 MB)。  
-This pulls **Arabidopsis** Chr1 & Chr5 sample data (~3 MB).
 
 ---
 
