@@ -1,6 +1,6 @@
 # MethPlotter  
-一个零代码、轻量级的 DNA 甲基化数据可视化 Python 工具包  
-*A zero-coding, lightweight Python toolkit for DNA-methylation visualisation*
+一个轻量级的 DNA 甲基化数据可视化 Python 工具包  
+*A lightweight Python toolkit for DNA-methylation visualisation*
 
 ---
 
