@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Methplotter/Methplotter.py
+Methplotter/__init__.py
+Methplotter.egg-info/PKG-INFO
+Methplotter.egg-info/SOURCES.txt
+Methplotter.egg-info/dependency_links.txt
+Methplotter.egg-info/top_level.txt

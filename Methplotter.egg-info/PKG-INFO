@@ -1,0 +1,54 @@
+Metadata-Version: 2.4
+Name: Methplotter
+Version: 1.5
+Summary: Methplotter
+Home-page: https://github.com/wxhJames/Methplotter
+Author: wxhJames
+Author-email: 1937557685@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# Methplotter 用户手册
+
+## 前言
+
+欢迎使用 Methplotter！本手册旨在指导您快速了解和使用该工具，用于 DNA 甲基化数据的可视化与处理。您能通过本手册掌握 MethPlotter 的各项功能。
+
+## 安装指南
+
+### 环境要求
+
+  * **操作系统** ：Windows、MacOS、Linux 均可，推荐使用Windows
+  * **Python 版本** ：3.6 及以上
+  * **依赖库** ：NumPy、pandas、Matplotlib、seaborn
+
+### 安装步骤
+
+  1. **安装 Python**
+     * 访问 [Python 官方网站](https://www.python.org/)，下载并安装与您操作系统匹配的 Python 3.6 或更高版本。
+     * 安装过程中，确保勾选 “Add Python to PATH” 选项，以便在命令行中能够直接使用 Python 命令。
+
+  2. **安装 Methplotter**
+     * 打开命令行工具（Windows 的命令提示符、MacOS 或 Linux 的终端）。
+     * 输入以下命令并按回车键：
+`pip install Methplotter`
+     * 等待安装过程完成，这可能需要几分钟时间，具体取决于您的网络连接速度。
+
+  3. **验证安装**
+     * 在命令行中输入以下命令并按回车键：
+`python -c "import Methplotter; print(Methplotter.__version__)"`
+
+     * 如果安装成功，将显示 Methplotter 的版本号。
+
